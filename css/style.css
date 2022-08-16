@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#B3E140;
+}
+.bg-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    margin-top:120px;
+    background-color: #ecdada;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px rgb(184, 158, 158);
+}
+.section{
+    display: flex;
+    position: relative;
+   
+    
+}
+.section h1{
+    position: absolute;
+    top: -538px;
+    left: 576px;
+    font-size: 30px;
+
+}
+.section h1 span{
+    color: #B3E140;
+    font-style: italic;
+}
+.card{
+    position: absolute;
+    top: -503px;
+    left: 418px;
+    width: 220px;
+    height: auto;
+    margin: 20px;
+    /* border: 3px solid red; */
+    position: relative;
+    font-family: arial;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px rgb(184, 158, 158);
+
+}
+.card img{
+    width: 220px;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card .card-info{
+    padding: 10px;
+}
+.card h2{
+font-size:18px;
+}
+.card .money{
+    position: absolute;
+    top: 208px;
+    left: 185px;
+}
+.card p{
+ font-weight:bold;
+ font-size: small;
+ margin-top: 10px;
+ margin-bottom: 5px;
+}
+.card ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card ul li{
+    /* border: 2px solid red; */
+    padding: 5px 5px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px rgb(245, 238, 238);
+    background-color: #ebd9d9;
+   
+}
+.card ul .color{
+    background-color: #B3E140;
+}
+.card ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+    padding: 3px;
+    color: #1E1E1E;
+    
+}
+
+.card .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    /* border: 2px solid red; */
+    padding: 8px 0px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(223, 209, 209);
+    text-decoration: none;
+    color: #ebd9d9;
+    background-color: #B3E140;
+    font-size: small;
+}
+
+/* card-2 css */
+.card .money-2{
+    position: absolute;
+    top: 301px;
+    left: 13px;
+}
+
+.card .cart-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 70px;
+    margin-right: 5px;
+    /* border: 2px solid red; */
+    padding: 8px 0px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(223, 209, 209);
+    text-decoration: none;
+    color: #ebd9d9;
+    background-color: #B3E140;
+    font-size: small;
+}
+.icon-2{
+    
+    position: relative;
+    
+}
+ .icon-2 a{
+     text-decoration: none;
+     color:#f3d214;
+     font-size: 25px;
+}
+ .icon-2 a i{
+     position: absolute;
+     top: -108px;
+     left: 262px;
+     padding: 10px;
+     /* border: 2px solid red; */
+     border-radius: 100%;
+     box-shadow: 1px 1px 10px rgb(184, 151, 151);
+ }
+
+/* card-2 css end */
+
+
+.icon{
+   position: relative;
+}
+.icon a{
+    text-decoration: none;
+    color:#007ACC;
+    font-size: 25px;
+}
+.icon a i{
+    position: absolute;
+    top: -108px;
+    left: 262px;
+    padding: 10px;
+    /* border: 2px solid red; */
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px rgb(184, 151, 151);
+}
+
