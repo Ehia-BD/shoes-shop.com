@@ -5,7 +5,7 @@
     
 }
 body{
-    background-color:#dceeae;
+    background-color:#c6ceb1;
     flex-wrap: wrap;
 }
 .bg-box{
@@ -28,19 +28,19 @@ body{
 }
 .section h1{
     position: absolute;
-    top: -538px;
-    left: 576px;
+    top: -562px;
+    left: 405px;
     font-size: 30px;
 
 }
 .section h1 span{
-    color: #B3E140;
+    color: #007ACC;
     font-style: italic;
 }
 .card{
     position: absolute;
     top: -503px;
-    left: 418px;
+    left: 250px;
     width: 220px;
     height: auto;
     margin: 20px;
@@ -91,7 +91,7 @@ font-size:18px;
    
 }
 .card ul .color{
-    background-color: #B3E140;
+    background-color: #007ACC;
 }
 .card ul li a{
     text-decoration: none;
@@ -113,7 +113,7 @@ font-size:18px;
     box-shadow: 1px 1px 10px rgb(223, 209, 209);
     text-decoration: none;
     color: #ebd9d9;
-    background-color: #B3E140;
+    background-color: #007ACC;
     font-size: small;
 }
 
@@ -136,7 +136,7 @@ font-size:18px;
     box-shadow: 1px 1px 10px rgb(223, 209, 209);
     text-decoration: none;
     color: #ebd9d9;
-    background-color: #B3E140;
+    background-color: #007ACC;
     font-size: small;
 }
 .icon-2{
@@ -152,8 +152,8 @@ font-size:18px;
 }
  .icon-2 a i{
      position: absolute;
-     top: -108px;
-     left: 262px;
+     top: -100px;
+     left: 100px;
      padding: 10px;
      /* border: 2px solid red; */
      border-radius: 100%;
@@ -173,8 +173,8 @@ font-size:18px;
 }
 .icon a i{
     position: absolute;
-    top: -108px;
-    left: 262px;
+    top: -100px;
+    left: 100px;
     padding: 10px;
     /* border: 2px solid red; */
     border-radius: 100%;
