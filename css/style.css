@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
-    background-color:#B3E140;
+    background-color:#dceeae;
+    flex-wrap: wrap;
 }
 .bg-box{
     display: flex;
@@ -17,12 +19,12 @@ body{
     background-color: #ecdada;
     border-radius: 50px;
     box-shadow: 2px 2px 20px rgb(184, 158, 158);
+    flex-wrap: wrap;
 }
 .section{
     display: flex;
-    position: relative;
-   
-    
+    position: relative;   
+    flex-wrap: wrap;
 }
 .section h1{
     position: absolute;
@@ -47,13 +49,14 @@ body{
     font-family: arial;
     border-radius: 15px;
     box-shadow: 2px 2px 20px rgb(184, 158, 158);
-
+    flex-wrap: wrap;
 }
 .card img{
     width: 220px;
     height: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    flex-wrap: wrap;
 }
 .card .card-info{
     padding: 10px;
@@ -139,6 +142,7 @@ font-size:18px;
 .icon-2{
     
     position: relative;
+    flex-wrap: wrap;
     
 }
  .icon-2 a{
